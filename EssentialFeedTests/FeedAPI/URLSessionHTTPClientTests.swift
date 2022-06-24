@@ -23,7 +23,7 @@ class URLSessionHTTPClientTests: XCTestCase {
     }
     
     func test_getFromURL_performsGETRequestWithURL() {
-        let exp = expectation(description: "Wait for request to complete")
+        let exp = expectation(description: "Wait for request")
         let url = anyURL
         URLProtocolStub.observeRequests { request in
             XCTAssertEqual(request.url, url)
