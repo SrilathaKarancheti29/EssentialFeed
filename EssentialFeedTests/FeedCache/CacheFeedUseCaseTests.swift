@@ -44,7 +44,7 @@ class CacheFeedUseCaseTests: XCTestCase {
 
         XCTAssertEqual(store.deletedCachedFeedCallCount, 1)
     }
-    
+
     // MARK: - Helpers
     private func makeSUT() -> (sut: LocalFeedLoader, store: FeedStore) {
         let store = FeedStore()

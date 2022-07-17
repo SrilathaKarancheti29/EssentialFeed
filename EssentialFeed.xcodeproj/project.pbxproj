@@ -132,6 +132,7 @@
 		1BE43FBB28650E56005074DB /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
+				1BE43FD728650ED7005074DB /* Helpers */,
 				1B1C47512884223800F007C3 /* FeedCache */,
 				1BE43FD528650ED7005074DB /* FeedAPI */,
 				1BE43FBC28650E56005074DB /* EssentialFeedTests.swift */,
@@ -163,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				1BE43FD628650ED7005074DB /* RemoteFeedLoaderTests.swift */,
-				1BE43FD728650ED7005074DB /* Helpers */,
 				1BE43FD928650ED7005074DB /* URLSessionHTTPClientTests.swift */,
 			);
 			path = FeedAPI;
