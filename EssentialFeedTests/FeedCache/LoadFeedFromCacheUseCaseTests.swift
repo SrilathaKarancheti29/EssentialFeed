@@ -24,5 +24,4 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
         trackMemoryLeaks(sut, file: file, line: line)
         return (sut, store)
     }
-
 }
