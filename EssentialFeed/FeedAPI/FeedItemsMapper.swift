@@ -7,13 +7,6 @@
 
 import Foundation
 
-internal struct RemoteFeedItem: Codable {
-    internal let id: UUID
-    internal let description: String?
-    internal let location: String?
-    internal let image: URL
-}
-
 internal final class FeedItemsMapper {
     
     private struct Root: Codable {
